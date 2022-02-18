@@ -169,8 +169,8 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-12 col-md-3 col-lg-4"  style="margin-top: 14px; width: 300px; ">
+    <div class="row" style="display: flex; flex: row wrap; justify-content: center;">
+        <div class="col-12 col-md-9 col-lg-4"  style="margin-top: 0px; width: 300px; ">
             <div class="card">
              <h4 class="card-title" style="margin:5px auto; font-size:19px;">Increasing Pagina Web</h4>
              <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Tecnología</h7>
@@ -211,7 +211,7 @@
             </div>
         </div>
         <div class="col-md-1"></div>
-        <div class="col-12 col-md-3 col-lg-4"  style="margin-top: 14px; width: 300px; ">
+        <div class="col-12 col-md-9 col-lg-4"  style="margin-top: 0px; width: 300px; ">
             <div class="card">
              <h4 class="card-title" style="margin:5px auto; font-size:19px;">Panadería La Fresca</h4>
              <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Alimentos</h7>
@@ -249,7 +249,7 @@
             </div>
         </div>
         <div class="col-md-1"></div>
-        <div class="col-12 col-md-3 col-lg-4"  style="margin-top: 14px; width: 300px; ">
+        <div class="col-12 col-md-9 col-lg-4"  style="margin-top: 0px; width: 300px; ">
             <div class="card">
              <h4 class="card-title" style="margin:5px auto; font-size:19px;">Relojes V5</h4>
              <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Accesorios</h7>
