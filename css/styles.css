@@ -9,7 +9,7 @@ ul {
   width: 30px;
 }
 
-#gran{
+.tarjetas {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
@@ -20,9 +20,8 @@ ul {
   padding: 0;
 }
 
-.col{
+.col {
   display: flex;
   flex-wrap: wrap;
   margin: 2% 0%;
-  
 }
