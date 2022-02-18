@@ -9,8 +9,11 @@ ul {
   width: 30px;
 }
 
-#conteiner {
-  background-color: #b44444;
-  margin: 2% 19%;
-}
 
+
+.col{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  
+}
