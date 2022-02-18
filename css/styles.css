@@ -1,4 +1,10 @@
 html {
   background-color: #fafafa;
-  height: 5000px;
+}
+ul {
+  list-style-type: none;
+}
+.icono_usuario {
+  height: 30px;
+  width: 30px;
 }
