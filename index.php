@@ -86,9 +86,10 @@
                             <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Password" name="psw2">
                             <label for="floatingPassword">Confirmar contraseña</label>
                         </div>
-                        <!-- <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Crear cuenta</button> -->
-                        <input type="submit" value="crear cuenta">
+                        <!-- <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Crear cuenta</button> --><div class="text text-center">
                         <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                        <input type="submit" value="Crear cuenta" class="btn btn-primary">
+                                   </div>
 
 
 
@@ -139,8 +140,8 @@
                             <label for="floatingPassword">Contraseña</label>
                         </div>
                         <!-- <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Crear cuenta</button> --><div class="text text-center">
-                        <input type="submit" value="crear cuenta" class="btn btn-primary"></br>
                         <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                        <input type="submit" value="Iniciar sesión" class="btn btn-primary"></br>
                                    </div>
                         <!-- <hr class="my-4">
                         <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
