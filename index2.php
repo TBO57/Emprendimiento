@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/Logo_png.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <title>Increasing</title>
@@ -14,7 +15,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
         <div class="container">
 
             <a class="navbar-brand" href="/index.html"><img src="img/Logo_F_blanco.svg"></a>
@@ -36,10 +37,10 @@
                             <img class = "icono_usuario" src="img/icono_usuario.svg" alt="">
                         </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Configuracíon</a></li>
+                        <li><a class="dropdown-item" href="#">Planes</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
                     </ul>
                     </li>
             </ul>
