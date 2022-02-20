@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="img/Logo_png.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Increasing</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -15,7 +16,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
         <div class="container">
 
             <!-- logo -->
@@ -169,84 +170,84 @@
 <!--  -->
 
 
-<div class="container">
-    <div class="row" style="display: flex; flex: row wrap; justify-content: center;">
-        <div class="col-12 col-md-9 col-lg-4"  style="margin-top: 0px; width: 300px; ">
+<div class="container" style= "margin-bottom: 100px">
+    <div class= "row" style="display: flex; flex: row wrap; justify-content: center;">
+        <div class="col-12 col-md-3 col-lg-4"  style="margin-top: 14px; width: 300px;">
             <div class="card">
-             <h4 class="card-title" style="margin:5px auto; font-size:19px;">Increasing Pagina Web</h4>
-             <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Tecnología</h7>
-             <img src="./img/Penelope.jpg" alt="Probando..." class="card-img-top"" >
-             <div class="card-body" style="padding-top:9px; padding-bottom:1px;">
-                 <!-- <h5 class="card-title"></h5>   -->
-                 <p class="card-text" style="font-size: 13px;">Penelope sueña con montar su propia panaderia con pan casero, pero actualmente no cuenta con la maquinaria necesaria para hacer los panes, tortas o frituras.</p>
-               
-                 <p style="margin-top:15px; font-size: 13px;">Capital necesario: $17'000.000 COP <br/> Rentabilidad: 18% anual</p>
+                <h4 class="card-title" style="margin:5px auto; font-size:19px;">Increasing Pagina Web</h4>
+                <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Tecnología</h7>
+                <img src="./img/Penelope.jpg" alt="Probando..." class="card-img-top"" >
+                <div class="card-body" style="padding-top:9px; padding-bottom:1px;">
+                    <!-- <h5 class="card-title"></h5>   -->
+                    <p class="card-text" style="font-size: 13px;">Penelope sueña con montar su propia panaderia con pan casero, pero actualmente no cuenta con la maquinaria necesaria para hacer los panes, tortas o frituras.</p>
+                
+                    <p style="margin-top:15px; font-size: 13px;">Capital necesario: $17'000.000 COP <br/> Rentabilidad: 18% anual</p>
 
-                 <!-- <p class="card-text" style="margin:2px auto;"><b> Dinero recaudado: </b><br/></p> -->
+                    <!-- <p class="card-text" style="margin:2px auto;"><b> Dinero recaudado: </b><br/></p> -->
 
-                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 29%;" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">29%</div>
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 71%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">71%</div>
-                 </div>
-                <div style="display:flex;">
-                 <div style="margin:2px auto; font-size:13px; height: 20px;">
-                    <p style="margin:0px;">Recaudado</p>
-                    <p style="margin:0px;"><b>$4'930.000</b></p>
-                </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 29%;" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">29%</div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 71%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">71%</div>
+                    </div>
+                    <div style="display:flex;">
+                    <div style="margin:2px auto; font-size:13px; height: 20px;">
+                        <p style="margin:0px;">Recaudado</p>
+                        <p style="margin:0px;"><b>$4'930.000</b></p>
+                    </div>
 
-                <div style="margin:0 30px;">
-                    <p style="margin:0px;"><b>   -   </b></p>
-                    <p style="margin:0px;"><b>  -   </b></p>
-                </div>
+                    <div style="margin:0 30px;">
+                        <p style="margin:0px;"><b>   -   </b></p>
+                        <p style="margin:0px;"><b>  -   </b></p>
+                    </div>
 
-                <div style="margin:2px auto; font-size:13px;">
-                    <p style="margin:0px;">Por recaudar</p>
-                    <p style="margin:0px;"><b>$12'070.000</b></p>
+                    <div style="margin:2px auto; font-size:13px;">
+                        <p style="margin:0px;">Por recaudar</p>
+                        <p style="margin:0px;"><b>$12'070.000</b></p>
+                    </div>
+                    </div>
+                    <!-- <p style="margin:2px auto; font-size:13px;"><b>Recaudado</b>&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp<b>Por recaudar</b> <br/>$4'930.000 COP&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp$12'070.000 COP</p> -->
+                    <!-- <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> -->
                 </div>
-                </div>
-                 <!-- <p style="margin:2px auto; font-size:13px;"><b>Recaudado</b>&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp<b>Por recaudar</b> <br/>$4'930.000 COP&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp$12'070.000 COP</p> -->
-                 <!-- <div class="progress">
-                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                 </div> -->
-             </div>
             </div>
         </div>
         <div class="col-md-1"></div>
-        <div class="col-12 col-md-9 col-lg-4"  style="margin-top: 0px; width: 300px; ">
-            <div class="card">
-             <h4 class="card-title" style="margin:5px auto; font-size:19px;">Panadería La Fresca</h4>
-             <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Alimentos</h7>
-             <img src="./img/hakimi.jpg" alt="Probando..." class="card-img-top"" >
-             <div class="card-body" style="padding-top:9px; padding-bottom:1px;">
-                 <!-- <h5 class="card-title"></h5>   -->
-                 <p class="card-text" style="font-size: 13px;">La Fresca se especializa en la producción de panes especiales, elaborados de manera artesanal, ademas tendrá panes más innovadores que buscan conseguir un aspecto diferenciador frente a otras panaderías.
-                 </p>
-               
-                 <p style="margin-top:15px; font-size: 13px;">Capital necesario: $7'000.000 COP <br/> Rentabilidad: 10% anual</p>
+            <div class="col-12 col-md-3 col-lg-4"  style="margin-top: 14px; width: 300px; ">
+                <div class="card">
+                    <h4 class="card-title" style="margin:5px auto; font-size:19px;">Panadería La Fresca</h4>
+                    <h7 class="card-title" style="margin:0px auto 4px; font-size:13px;">Alimentos</h7>
+                    <img src="./img/hakimi.jpg" alt="Probando..." class="card-img-top"" >
+                    <div class="card-body" style="padding-top:9px; padding-bottom:1px;">
+                        <!-- <h5 class="card-title"></h5>   -->
+                        <p class="card-text" style="font-size: 13px;">La Fresca se especializa en la producción de panes especiales, elaborados de manera artesanal, ademas tendrá panes más innovadores que buscan conseguir un aspecto diferenciador frente a otras panaderías.
+                        </p>
+                    
+                        <p style="margin-top:15px; font-size: 13px;">Capital necesario: $7'000.000 COP <br/> Rentabilidad: 10% anual</p>
 
-                 <!-- <p class="card-text" style="margin:2px auto;"><b> Dinero recaudado: </b><br/></p> -->
+                        <!-- <p class="card-text" style="margin:2px auto;"><b> Dinero recaudado: </b><br/></p> -->
 
-                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">15%</div>
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">85%</div>
-                 </div>
-                <div style="display:flex;">
-                 <div style="margin:2px auto; font-size:13px; height: 20px;">
-                    <p style="margin:0px;">Recaudado</p>
-                    <p style="margin:0px;"><b>$1'050.000</b></p>
-                </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">15%</div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <div style="display:flex;">
+                        <div style="margin:2px auto; font-size:13px; height: 20px;">
+                            <p style="margin:0px;">Recaudado</p>
+                            <p style="margin:0px;"><b>$1'050.000</b></p>
+                        </div>
 
-                <div style="margin:0 30px;">
-                    <p style="margin:0px;"><b>   -   </b></p>
-                    <p style="margin:0px;"><b>  -   </b></p>
-                </div>
+                        <div style="margin:0 30px;">
+                            <p style="margin:0px;"><b>   -   </b></p>
+                            <p style="margin:0px;"><b>  -   </b></p>
+                        </div>
 
-                <div style="margin:2px auto; font-size:13px;">
-                    <p style="margin:0px;">Por recaudar</p>
-                    <p style="margin:0px;"><b>$5'950.000</b></p>
+                        <div style="margin:2px auto; font-size:13px;">
+                            <p style="margin:0px;">Por recaudar</p>
+                            <p style="margin:0px;"><b>$5'950.000</b></p>
+                        </div>
+                    </div>
                 </div>
-                </div>
-             </div>
             </div>
         </div>
         <div class="col-md-1"></div>
@@ -284,11 +285,58 @@
                 </div>
              </div>
             </div>
+            
         </div>
 
     </div>
  </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <footer class="pie-pagina">
+
+        <div class="grupo1">
+
+            <div class="box" id="logo">
+                <figure>
+                    <a href="#">
+                        <img src="img/Logo_F_negro.svg" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="box">
+                <h5>Sobre Nosotros</h5>
+                <p>Increasing posibilita que los emprendedores puedan recibir apoyo económico y asesorias para llevar a cabo sus ideas de negocio</p>
+            </div>
+
+            <div class="box">
+                <h5>Siguenos en nuestras redes sociales:</h5>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h5>Soporte</h5>
+                <p>increasin@gmail.com</p>
+                <p>+57 315 256 9012</p>
+            </div>
+            
+        </div>
+
+        <div class="grupo2">
+            <small>&copy; 2022 <b>Increasing</b> - Todos los Derechos Reservados.</small>
+        </div>
+
+    </footer>  
+
+    <script src="https://kit.fontawesome.com/849c11d1ad.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
