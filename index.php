@@ -139,10 +139,11 @@
                             <input type="password" class="form-control " id="floatingPassword" placeholder="Password" name="psw">
                             <label for="floatingPassword">Contraseña</label>
                         </div>
-                        <!-- <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Crear cuenta</button> --><div class="text text-center">
+                        <!-- <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Crear cuenta</button> -->
+                        <div class="text text-center">
                         <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
                         <input type="submit" value="Iniciar sesión" class="btn btn-primary"></br>
-                                   </div>
+                        </div>
                         <!-- <hr class="my-4">
                         <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
                         <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
